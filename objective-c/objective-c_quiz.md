@@ -1,3 +1,4 @@
+
 ## Objective-C Assessment
 
 #### Q1. What is the value of s?
@@ -347,3 +348,71 @@ id json = [NSJSONSerialization JSONObjectWithData:data opetions:NSJSONReadingAll
 - NSArray
 - id
 - NSDictionary
+
+#### Q34. What happens when this code is executed?
+
+```
+int sysCode = 400;
+NSAssert(sysCode < 400, @"System code is > 399");
+```
+
+- The message "System code is > 399" is printed.
+- The process tesrminates.
+- The function stops.
+- All of these answers
+
+#### Q34.   What does this expression evaluate?
+
+`a = b ?: c;`
+- `a` equals `b` when `c` is nil; otherwise a equals `c`.
+- `a` equals `b` when `b` and c both comparable types.
+- `a` equals `b` is `b` is not nil; otherwise equals `c`.
+- `a` equals `b` subscripted by `c`.
+
+#### Q35. How would this function be called?
+```
+-(int)foo: (int)a b:(int)c;
+```
+- `[self foo:5:10:20];`
+- `[self foo:5 b:10];`
+- `self.foo(5, b:10);`
+- This code contains an error.
+
+#### Q36. What is the value of `m` after this code is executed?
+```
+NSArray *a = [NSArrayt arrayWithObjects: @"1", @"2", @"3"];
+NSMutasbleArray *m = [a mutableCopy];
+[m addObject: @"4"];
+```
+- The code is invalid
+- `"1", "2", "3"`
+- `"1", "2", "3", "4"`
+- `"4"`
+
+#### Q37. What is printed from the code execution?
+```
+typedef enum {
+    thing1,
+    thing2,
+    thing3
+    } Thing;
+
+-()void) enumStuff {
+    NSLog(@%d", thing2");
+}
+```
+- `0`
+- `thing2`
+- `1`
+- This code does not print anything.
+
+#### Q38. What us significant about this function declaration?
+```
+-(void)testFunc:(NSString**)str;
+```
+- **is not allowed on a parameter.
+- The parameter may be nil.
+- The parameter is passed by value and can not be changed.
+- The parameter is passed by reference and may be changed.
+
+
