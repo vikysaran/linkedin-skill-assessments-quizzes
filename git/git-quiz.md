@@ -604,7 +604,7 @@ In Git, there are two main ways to integrate changes from one branch into anothe
 
 #### Q69. How does Git internally manage branches?
 
-- [ ] by creating a pointer to the most recent snapshot/commit for the branch.
+- [x] by creating a pointer to the most recent snapshot/commit for the branch.
 - [ ] by creating a data array of branches in the same repository.
 - [ ] by creating a data dictionary of code changes.
 - [ ] be creating a debug log that stores repository changes.
